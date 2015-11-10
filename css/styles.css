@@ -1,0 +1,59 @@
+
+body {
+	display: block;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	font-family: mathlete;
+	background-color: rgb(48, 40, 58);
+}
+
+p {
+	font-size: 2.8em;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: rgb(204, 204, 204);
+}
+
+ul {
+	padding-left: 1em;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+li {
+	display: inline;;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+li img {
+	width: 0.6em;
+}
+
+a {
+	color: #ccccff;
+	font-size: 3em;
+}
+
+a:visited {
+	color:#dd1b56;
+}
+
+img {
+	margin-top: 0.2em;
+	width: 25em;
+}
+ 
+.red {
+	display: inline;
+	color: #dd1b56;
+}
+
+footer {
+	color: #ccccff;
+	margin-top: 0.4em;
+	font-size: 2.5em;
+}
