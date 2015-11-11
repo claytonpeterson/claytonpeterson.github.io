@@ -52,6 +52,12 @@ img {
 	color: #dd1b56;
 }
 
+.blur {
+	display: inline;
+	color: transparent;
+   	text-shadow: 0 0 5px rgba(0,0,0,0.8);
+}
+
 footer {
 	color: #ccccff;
 	margin-top: 0.4em;
