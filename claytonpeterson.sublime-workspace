@@ -1,0 +1,578 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"wid",
+				"width	(index.html)"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"TWITT",
+				"TWITTER_CONSUMER_SECRET	(config.py)"
+			],
+			[
+				"TWIT",
+				"TWITTER_CONSUMER_KEY	(config.py)"
+			],
+			[
+				"log",
+				"login_manager"
+			],
+			[
+				"sq",
+				"SQLAlchemy"
+			],
+			[
+				"Sel",
+				"Select	Selectable.*()"
+			],
+			[
+				"game",
+				"gameObject	*(name)"
+			],
+			[
+				"gameObj",
+				"gameObject	RaycastResult.*"
+			],
+			[
+				"dia",
+				"player_dialog_options"
+			],
+			[
+				"dial",
+				"dialog_option"
+			],
+			[
+				"as",
+				"asList"
+			],
+			[
+				"conv",
+				"conversation"
+			],
+			[
+				"xml",
+				"xml_file"
+			],
+			[
+				"try",
+				"try	Try/Except/Else/Finally"
+			],
+			[
+				"xm",
+				"xml_file"
+			],
+			[
+				"conver",
+				"conversation"
+			],
+			[
+				"list",
+				"listdir"
+			],
+			[
+				"re",
+				"results"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"pop",
+				"prompts"
+			],
+			[
+				"promp",
+				"prompts"
+			],
+			[
+				"cha",
+				"character_name"
+			],
+			[
+				"Element",
+				"ElementTree"
+			],
+			[
+				"elem",
+				"ElementTree"
+			],
+			[
+				"how",
+				"how_many_options"
+			],
+			[
+				"ele",
+				"ElementTree"
+			],
+			[
+				"prom",
+				"prompt"
+			],
+			[
+				"player",
+				"player_dialog_options"
+			],
+			[
+				"roo",
+				"root_node"
+			],
+			[
+				"pla",
+				"player_dialog_options"
+			],
+			[
+				"Elem",
+				"ElementTree"
+			],
+			[
+				"co",
+				"conversation"
+			],
+			[
+				"con",
+				"conversation_root"
+			],
+			[
+				"all",
+				"allScenes"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1150,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/styles.css",
+			"settings":
+			{
+				"buffer_size": 681,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"Instal",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Preferences: Browse Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 486.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/claytonpeterson/Desktop/GitHub/claytonpeterson.github.io",
+		"/Users/claytonpeterson/Desktop/GitHub/claytonpeterson.github.io/css",
+		"/Users/claytonpeterson/Desktop/GitHub/claytonpeterson.github.io/fonts"
+	],
+	"file_history":
+	[
+		"/Users/claytonpeterson/Desktop/personal-website/css/styles.css",
+		"/Users/claytonpeterson/Desktop/personal-website/css/fonts.css",
+		"/Users/claytonpeterson/Desktop/personal-website/fonts/mathlete/Mathlete-SkinnySlant-demo.html",
+		"/Users/claytonpeterson/Desktop/personal-website/fonts/mathlete/stylesheet.css",
+		"/Users/claytonpeterson/Desktop/mathlete/Mathlete-SkinnySlant.otf",
+		"/Users/claytonpeterson/Desktop/GitHub/polyhedron-website/css/styles.css",
+		"/Users/claytonpeterson/Desktop/GitHub/polyhedron-website/about.html",
+		"/Users/claytonpeterson/Desktop/GitHub/polyhedron-website/styles.css",
+		"/Users/claytonpeterson/Desktop/GitHub/polyhedron-website/news.html",
+		"/Users/claytonpeterson/Desktop/polyhedron/Assets/XMLConversations/Gary_conversation.xml",
+		"/Users/claytonpeterson/Desktop/wit-python/pygsr-0.1/w.py",
+		"/Users/claytonpeterson/Desktop/wit-python/w.py",
+		"/Users/claytonpeterson/Desktop/witapp/index.html",
+		"/Users/claytonpeterson/Desktop/microphone-0.7.0/index.html",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/app/__init__.py",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/hello.py",
+		"/Users/claytonpeterson/Downloads/flask-blog-server-0.1/run.py",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/app/views.py",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/app/forms.py",
+		"/Users/claytonpeterson/Dropbox/architect-server/run.py",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/app/models.py",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/app/templates/author.html",
+		"/Users/claytonpeterson/Desktop/hackday-9-4/architect-server/run.py",
+		"/Users/claytonpeterson/Downloads/microblog-version-0.5/app/__init__.py",
+		"/Users/claytonpeterson/Downloads/microblog-version-0.5/app/models.py",
+		"/Users/claytonpeterson/Downloads/microblog-version-0.5/app/views.py",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/flask/lib/python2.7/site-packages/flask/sessions.py",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/config.py",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/flask/bin/pybabel",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/flask/bin/python",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/app/oauth.py",
+		"/Users/claytonpeterson/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/claytonpeterson/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/app/templates/base.html",
+		"/Users/claytonpeterson/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/Users/claytonpeterson/Library/Application Support/Sublime Text 3/Packages/Pylinter/Pylinter.sublime-settings",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/run.py",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/db_migrate.py",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/app/templates/login.html",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/db_upgrade.py",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/db_downgrade.py",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/db_create.py",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/app/templates/index.html",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/.gitignore",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/app/_init__.py",
+		"/Users/claytonpeterson/Desktop/flask-blog-server/app/run.py",
+		"/Users/claytonpeterson/Desktop/z.py",
+		"/Users/claytonpeterson/Desktop/polyhedron/Assets/Scripts/NormalizedTimer.cs",
+		"/Users/claytonpeterson/Desktop/dialog-to-xml/run.py",
+		"/Users/claytonpeterson/Desktop/dialog-to-xml/character-dialogs/HAL_conversation.xml",
+		"/Users/claytonpeterson/Desktop/dialog-to-xml/reader.py",
+		"/Users/claytonpeterson/Desktop/NaturalNumbers.py",
+		"/Users/claytonpeterson/Desktop/Conversation to XML/reader.py",
+		"/Users/claytonpeterson/Desktop/Conversation to XML/run.py",
+		"/Users/claytonpeterson/Desktop/get-pip.py",
+		"/Users/claytonpeterson/Desktop/Conversation to XML/conversation-to-xml.py",
+		"/Users/claytonpeterson/Desktop/Conversation to XML/conversation-to-xml.sublime-project",
+		"/Users/claytonpeterson/Desktop/Renaissance/index.html",
+		"/Users/claytonpeterson/Desktop/Renaissance/home.html",
+		"/Users/claytonpeterson/libraries:model-reader-lib-osx/libmodel-reader/Reader.h",
+		"/Users/claytonpeterson/libraries:model-reader-lib-osx/build/Release/libmodel-reader.bundle/Contents/Frameworks/slapi.framework/Headers/model/model.h",
+		"/Users/claytonpeterson/libraries:model-reader-lib-osx/libmodel-reader/Reader.cpp",
+		"/Users/claytonpeterson/SketchUp-SDK-Mac/samples/C++/ReadingFromAskpFile/main.cpp",
+		"/Users/claytonpeterson/gui-prototypes/Assets/GUI-Prototypes/Menu/Menu.cs",
+		"/Users/claytonpeterson/libraries:model-reader-lib-osx/build/Release/libmodel-reader.bundle/Contents/Frameworks/slapi.framework/Headers/model/entities.h",
+		"/Users/claytonpeterson/libraries:model-reader-lib-osx/build/Release/libmodel-reader.bundle/Contents/Frameworks/slapi.framework/Headers/model/camera.h",
+		"/Users/claytonpeterson/libraries:model-reader-lib-osx/build/Release/libmodel-reader.bundle/Contents/Frameworks/slapi.framework/Headers/geometry.h",
+		"/Users/claytonpeterson/SketchUp-SDK-Mac/slapi.framework/Headers/slapi.h",
+		"/Users/claytonpeterson/SketchUp-SDK-Mac/samples/C++/WritingToAskpFile/main.cpp",
+		"/Users/claytonpeterson/SketchUp-SDK-Mac/samples/C++/skp_to_xml/common/xmlstats.h",
+		"/Users/claytonpeterson/SketchUp-SDK-Mac/slapi.framework/Headers/model/face.h",
+		"/Users/claytonpeterson/SketchUp-SDK-Mac/slapi.framework/Headers/model/entity.h",
+		"/Users/claytonpeterson/SketchUp-SDK-Mac/slapi.framework/Headers/model/entities.h",
+		"/Users/claytonpeterson/SketchUp-SDK-Mac/samples/C++/ReadingFromAskpFile/model.skp",
+		"/Users/claytonpeterson/Desktop/SketchUp-SDK-Mac/documentation/doxygen.css",
+		"/Users/claytonpeterson/Desktop/untitled.py"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 297.0,
+		"where_history":
+		[
+			"/Users/claytonpeterson/Desktop/webfontkit-20151108-205323",
+			"/Users/claytonpeterson/Desktop/GitHub/polyhedron-website"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"	<ul>	\n			<li>\n			<a href =\"https://github.com/claytonpeterson\"><img src =\"images/git.png\"></a></li>\n			<li><a href =\"https://soundcloud.com/clay-peterson\"><img src =\"images/soundcloud.png\"></a></li>\n			<li><a href =\"http://claytonpeterson.itch.io\"><img src =\"images/gamepad.png\"></a></li>\n	<li><a href =\"mailto:feedback@polyhedrongame.com\"><img src =\"images/email.png\"></a></li>\n		</ul>",
+			"color",
+			"session",
+			"request",
+			"parse",
+			"allScenes",
+			"getNum"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/claytonpeterson/Desktop/GitHub/claytonpeterson.github.io"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								917,
+								917
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/styles.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 25.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/wit-python/w.py"
+			],
+			[
+				"sess",
+				"flask/lib/python2.7/site-packages/flask/sessions.py"
+			],
+			[
+				"session",
+				"flask/lib/python2.7/site-packages/flask/sessions.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 181.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
