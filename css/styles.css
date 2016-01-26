@@ -33,6 +33,11 @@ li img {
 	width: 0.6em;
 }
 
+li img:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
 a {
 	color: #ccccff;
 	font-size: 3em;
