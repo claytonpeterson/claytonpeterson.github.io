@@ -4,28 +4,72 @@
 		"selected_items":
 		[
 			[
-				"pa",
-				"padding-left"
+				"clay",
+				"claytonpeterson"
+			],
+			[
+				"tex",
+				"textarea"
 			],
 			[
 				"mar",
-				"margin-top"
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"bak",
+				"background"
 			],
 			[
 				"pad",
-				"padding-top"
+				"padding-bottom"
+			],
+			[
+				"pa",
+				"padding-right"
 			],
 			[
 				"in",
-				"inline"
+				"inherit"
+			],
+			[
+				"mat",
+				"margin-left"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"de",
+				"text-decoration"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
 			],
 			[
 				"wid",
 				"width	(index.html)"
-			],
-			[
-				"padd",
-				"padding-right"
 			],
 			[
 				"max",
@@ -179,15 +223,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1150,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/styles.css",
-			"settings":
-			{
-				"buffer_size": 681,
+				"buffer_size": 1135,
 				"line_ending": "Unix"
 			}
 		}
@@ -281,21 +317,25 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/claytonpeterson/Desktop/GitHub/claytonpeterson.github.io",
-		"/Users/claytonpeterson/Desktop/GitHub/claytonpeterson.github.io/css",
-		"/Users/claytonpeterson/Desktop/GitHub/claytonpeterson.github.io/fonts"
+		"/Users/claytonpeterson/Desktop/GitHub/claytonpeterson.github.io"
 	],
 	"file_history":
 	[
+		"/Users/claytonpeterson/Desktop/GitHub/polyhedron-website/news.html",
+		"/Users/claytonpeterson/Desktop/GitHub/polyhedron-website/about.html",
+		"/Users/claytonpeterson/Desktop/GitHub/polyhedron-website/feedback.html",
+		"/Users/claytonpeterson/Desktop/GitHub/polyhedron-website/css/styles.css",
+		"/Users/claytonpeterson/Desktop/GitHub/polyhedron-website/css/fonts.css",
+		"/Users/claytonpeterson/Desktop/GitHub/claytonpeterson.github.io/css/fonts.css",
+		"/Users/claytonpeterson/Desktop/GitHub/claytonpeterson.github.io/css/styles.css",
+		"/Users/claytonpeterson/Desktop/GitHub/claytonpeterson.github.io/index.html",
+		"/Users/claytonpeterson/Desktop/GitHub/polyhedron-website/images/wallpaper.png",
 		"/Users/claytonpeterson/Desktop/personal-website/css/styles.css",
 		"/Users/claytonpeterson/Desktop/personal-website/css/fonts.css",
 		"/Users/claytonpeterson/Desktop/personal-website/fonts/mathlete/Mathlete-SkinnySlant-demo.html",
 		"/Users/claytonpeterson/Desktop/personal-website/fonts/mathlete/stylesheet.css",
 		"/Users/claytonpeterson/Desktop/mathlete/Mathlete-SkinnySlant.otf",
-		"/Users/claytonpeterson/Desktop/GitHub/polyhedron-website/css/styles.css",
-		"/Users/claytonpeterson/Desktop/GitHub/polyhedron-website/about.html",
 		"/Users/claytonpeterson/Desktop/GitHub/polyhedron-website/styles.css",
-		"/Users/claytonpeterson/Desktop/GitHub/polyhedron-website/news.html",
 		"/Users/claytonpeterson/Desktop/polyhedron/Assets/XMLConversations/Gary_conversation.xml",
 		"/Users/claytonpeterson/Desktop/wit-python/pygsr-0.1/w.py",
 		"/Users/claytonpeterson/Desktop/wit-python/w.py",
@@ -366,13 +406,14 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 297.0,
 		"where_history":
 		[
+			"/Users/claytonpeterson/Desktop/GitHub/claytonpeterson.github.io/css/mathlete",
 			"/Users/claytonpeterson/Desktop/webfontkit-20151108-205323",
 			"/Users/claytonpeterson/Desktop/GitHub/polyhedron-website"
 		]
@@ -382,6 +423,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"inline",
 			"	<ul>	\n			<li>\n			<a href =\"https://github.com/claytonpeterson\"><img src =\"images/git.png\"></a></li>\n			<li><a href =\"https://soundcloud.com/clay-peterson\"><img src =\"images/soundcloud.png\"></a></li>\n			<li><a href =\"http://claytonpeterson.itch.io\"><img src =\"images/gamepad.png\"></a></li>\n	<li><a href =\"mailto:feedback@polyhedrongame.com\"><img src =\"images/email.png\"></a></li>\n		</ul>",
 			"color",
 			"session",
@@ -407,12 +449,15 @@
 	[
 		{
 			"path": "/Users/claytonpeterson/Desktop/GitHub/claytonpeterson.github.io"
+		},
+		{
+			"path": "/Users/claytonpeterson/Desktop/GitHub/polyhedron-website"
 		}
 	],
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -421,50 +466,21 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1150,
+						"buffer_size": 1135,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								917,
-								917
+								902,
+								902
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/styles.css",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 681,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -514,7 +530,7 @@
 	},
 	"output.find_results":
 	{
-		"height": 25.0
+		"height": 26.0
 	},
 	"pinned_build_system": "",
 	"project": "",
@@ -570,7 +586,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 181.0,
+	"side_bar_width": 252.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
