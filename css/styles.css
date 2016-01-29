@@ -1,11 +1,28 @@
 
+@font-face {
+	font-family: mathlete;
+	src: url(mathlete/skinny.eot); /* IE9 Compact Modes */
+	src: url(mathlete/skinny.eot?#iefix)format('embedded-opentype'), /* IE6-IE8 */
+    	 url(mathlete/skinny.woff)format('woff'), /* Modern Browsers */
+    	 url(mathlete/skinny.ttf)format('truetype'), /* Safari, Android, iOS */
+    	 url(mathlete/skinny.svg)format('svg'); /* Legacy iOS */
+    font-weight: bold;
+}
+
 body {
-	display: block;
-	text-align: center;
+	font-family: mathlete;
+    display: block;
 	padding-top: 30px;
 	padding-bottom: 20px;
-	font-family: mathlete;
 	background-color: rgb(48, 40, 58);
+}
+
+.content {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    padding-right: 0%;
 }
 
 p {
@@ -43,13 +60,25 @@ a {
 	font-size: 3em;
 }
 
+button {
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+}
+
 a:visited {
 	color:#dd1b56;
 }
 
 img {
+    padding: 0 0 0 0;
 	margin-top: 0.2em;
-	width: 22em;
+	width: 32em;
+}
+
+img:active {
+    opacity: 20%;
 }
  
 .red {
