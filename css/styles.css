@@ -85,6 +85,7 @@ li img:hover {
 }
 
 .red {
+	cursor: pointer;
 	display: inline;
 	color: #dd1b56;
 }
