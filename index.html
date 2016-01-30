@@ -9,7 +9,8 @@
 	  	<meta name="description" content="hub of clay content">
 	  	<link rel="stylesheet" href="css/styles.css">  
         <link rel="stylesheet" href="css/animate.css">    
-        <link rel="stylesheet" href="css/hover.css" media="all">    
+        <link rel="stylesheet" href="css/hover-min.css" media="all">    
+        <script src="dialog.js" type="text/javascript"></script> 
 	</head>
 	<body>
         <div class="content animated flipInX unselectable">
@@ -19,14 +20,15 @@
                 <li><a href ="https://soundcloud.com/clay-peterson"><img src ="images/soundcloud.png" draggable="false" class="hvr-shrink"></a></li>
                 <li><a href ="https://github.com/claytonpeterson"><img src ="images/git.png" draggable="false" class="hvr-shrink"></a></li>
                 <li><a href ="http://claytonpeterson.itch.io"><img src ="images/gamepad.png" draggable="false" class="hvr-shrink"></a></li>
-            </ul>		
+            </ul>
             <!-- selfie -->
             <div class="picture"><img src="images/selfie.png" draggable="false"></div>
             <!-- about -->
-            <p>~ doing art now ~</p>
-            <footer >I live in <div class="red hvr-buzz-out" onclick="this.innerHTML='BROOKLYN :)'">NYC</div></footer>
+            <p id="dialog">~ doing art now ~</p>
+            <footer>I live in <div class="red hvr-buzz-out" onclick="this.innerHTML='BROOKLYN :)'">NYC</div></footer>
         </div>
 	</body>
-    <!--get jquery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        document.getElementById("dialog").innerHTML = "~ " + randomText() + " ~";
+    </script>
 </html>

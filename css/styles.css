@@ -15,7 +15,7 @@ body {
 	background-color: rgb(48, 40, 58);
 	font-family: mathlete;
     text-align: center;	
-    /*animation: pulse 40s infinite;*/
+    /*animation: pulse 10s infinite;*/
 }
 
 @keyframes pulse {
