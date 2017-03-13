@@ -12,22 +12,9 @@ body {
 	width: 100%;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	background-color: rgb(48, 40, 58);
+	background-color: rgb(238, 183, 136);
 	font-family: mathlete;
     text-align: center;	
-    /*animation: pulse 10s infinite;*/
-}
-
-@keyframes pulse {
-  0% {
-    background-color: rgb(48, 40, 58);
-  }
-  50% {
-    background-color: rgb(255, 155, 12);
-  }
-  100% {
-    background-color: rgb(48, 40, 58);
-  }
 }
 
 .unselectable {
@@ -47,10 +34,11 @@ body {
 
 p {
 	cursor: default;
-	font-size: 2.5em;
+	font-size: 2.6em;
 	margin-top: 0.6em;
 	margin-bottom: 0em;
-	color: rgb(204, 204, 204);
+	color: #5d5457;
+	/*color: rgb(204, 204, 204);*/
 }
 
 ul {
@@ -87,7 +75,7 @@ li img:hover {
 .red {
 	cursor: pointer;
 	display: inline;
-	color: #dd1b56;
+	color: #5d5457;
 }
 
 .blur {
@@ -98,7 +86,8 @@ li img:hover {
 
 footer {
 	cursor: default;
-	color: #ccccff;
+	color: #79271b;
+	/*color: #ccccff;*/
 	margin-top: 0.8em;
-	font-size: 1.8em;
+	font-size: 2em;
 }

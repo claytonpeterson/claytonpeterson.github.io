@@ -1,13 +1,18 @@
 
 var text = [
-"doing art now",
-"probably programming",
-"i'm working on a new painting",
-"looking for a job",
-"most likely reading a book",
-"thinking about artificial intelligence",
-"currently producing music",
-"day dreaming about the future"
+"looking for another job",
+"i work at mcnally jackson",
+"I buy books for a living",
+"I make music 4 fun",
+"I paint pictures",
+"hire me for freelance stuff",
+"I can make video games",
+"I wish I had a pet",
+"I like math now",
+"people tell me i'm a robot",
+"I used to build virtual reality",
+"I had an interview at google once",
+"I want to move",
 ];
 
 function randomText() {
