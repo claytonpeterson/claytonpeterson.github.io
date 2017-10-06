@@ -17,6 +17,19 @@ body {
     text-align: center;	
 }
 
+a {
+	display: inline;	
+	text-decoration: none;	
+	color: #5d5457;
+}
+
+.red {
+	display: inline;
+	text-decoration: none;	
+	color: #E61961;
+	/* font-size: 1.8em; */
+}
+
 .unselectable {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -32,18 +45,27 @@ body {
 	width: auto;
 }
 
+h {
+	font-size: 3em;
+	color: #363133;	
+}
+
 p {
 	cursor: default;
-	font-size: 2.6em;
+	font-size: 1.8em;
 	margin-top: 0.6em;
 	margin-bottom: 0em;
 	color: #5d5457;
+	letter-spacing: 0.2em;
+	line-height: 130%;
 	/*color: rgb(204, 204, 204);*/
 }
 
 ul {
 	padding-left: 0;
 	list-style-type: none;
+	font-size: 2em;
+	color: #5d5457;
 }
 
 li {
@@ -63,13 +85,14 @@ li img:hover {
 }
 
 .picture {
+	margin-top: 1em;
 	padding-left: 10%;
 	padding-right: 10%;
 }
 
 .picture img {
 	width: 100%;
-	max-width: 25em;
+	max-width: 16em;
 }
 
 .red {
