@@ -39,6 +39,12 @@ a {
     user-select: none;
 }
 
+.gallery {
+	padding-top: 1em;
+	width: 50%;
+	margin: 0 auto
+}
+
 .content {
 	padding-left: 10%;
 	padding-right: 10%;
