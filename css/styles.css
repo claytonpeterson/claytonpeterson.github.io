@@ -12,9 +12,77 @@ body {
 	width: 100%;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	background-color: rgb(238, 183, 136);
 	font-family: mathlete;
     text-align: center;	
+    background: url(../images/wall2.png) center center fixed;
+    background-repeat: repeat;
+}
+
+h {
+	font-size: 4em;
+	/*color: #FFFFFF;	*/
+	color: #5d5457;	
+	/*background-color: rgb(255, 235, 217);*/
+}
+
+p {
+	cursor: default;
+	font-size: 1.8em;
+	margin-top: 0.6em;
+	margin-bottom: 0em;
+	color: #5d5457;
+	letter-spacing: 0.2em;
+	line-height: 130%;
+	/*color: rgb(204, 204, 204);*/
+}
+
+.inner-content
+{
+	background-color: #FFFFFF;
+	padding-left: 1em;
+	padding-right: 1em;
+
+
+}
+
+.navbar {
+	/*height: 4em;*/
+	background-color: #ffffff;
+	text-align: center;
+    box-shadow: 0px 5px #888888;
+}
+
+.navbar a {
+	text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+	color: rgb(24, 25, 32);
+}
+
+/* visited link */
+a:visited {
+	color: rgb(24, 25, 32);
+}
+
+/* mouse over link */
+ a:hover {
+    color: rgb(221,27,86);
+}
+
+.navbar ul {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.navbar li {
+	padding-left: 1em;
+	padding-right: 1em;
+	font-size: 1.8em;
+	display: inline;
 }
 
 a {
@@ -82,6 +150,7 @@ a {
 	padding-right: 10%;
 	width: auto;
 
+
 /*	position:absolute;
     height:90%;  = 100% - 2*5% padding 
     width:90%; /* = 100% - 2*5% padding */*/
@@ -89,6 +158,14 @@ a {
 }
 
 /*  For responsive images */
+
+.text-box {
+	background-color: #ffffff;
+	text-align: center;
+    box-shadow: 0px 5px #888888;
+    border-radius: 10px;
+    /*padding-top: .5em;*/
+}
 
 .content .rs{
     width:auto;
@@ -112,24 +189,6 @@ a {
     background-image: url('../images/deli.jpg')
 }
 
-h {
-	font-size: 3em;
-	/*color: #FFFFFF;	*/
-	color: #5d5457;	
-	/*background-color: rgb(255, 235, 217);*/
-}
-
-p {
-	cursor: default;
-	font-size: 1.8em;
-	margin-top: 0.6em;
-	margin-bottom: 0em;
-	color: #5d5457;
-	letter-spacing: 0.2em;
-	line-height: 130%;
-	/*color: rgb(204, 204, 204);*/
-}
-
 .special-offer {
 	margin-top:  0.4em;
 	font-size: 1.5em;
@@ -145,7 +204,7 @@ p {
 
 .description {
 	font-size: 1.5em;
-	color: #5d5457;		
+	color: #333231;		
 	letter-spacing: 0.2em;
 	line-height: 130%;
 }
@@ -173,15 +232,32 @@ li img:hover {
     filter: alpha(opacity=80);
 }
 
+.shop-painting {
+	width: 100%;
+	padding: 4%;
+	background-color: #FFFFFF;
+    box-shadow: 0px 4px #888888;
+        border-radius: 10px;
+
+}
+
+.display-painting {
+	width: 100%;
+	/*padding: 1%;*/
+	background-color: #FFFFFF;
+    box-shadow: 0px 4px #888888;
+}
+
 .picture {
-	margin-top: 1em;
-	padding-left: 10%;
-	padding-right: 10%;
+	width: 100%;
+	/*margin-top: 1em;*/
+	/*padding-left: 10%;*/
+	/*padding-right: 10%;*/
 }
 
 .picture img {
 	width: 100%;
-	max-width: 16em;
+	/*max-width: 16em;*/
 }
 
 .red {
@@ -198,7 +274,7 @@ li img:hover {
 
 footer {
 	cursor: default;
-	color: #79271b;
+	color: #5d5457;
 	/*color: #ccccff;*/
 	margin-top: 0.8em;
 	font-size: 1.5em;
