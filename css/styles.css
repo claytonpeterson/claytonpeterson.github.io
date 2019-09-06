@@ -15,16 +15,23 @@ body {
     font-family: mathlete;
     text-align: center;
     background-color: #ff8584;
-    /*background: url(../images/wall2.jpg) center center fixed;*/
-    /*background-repeat: repeat;*/
-    /*background-color: #fbde6f;*/
 }
+
+.arena-background {
+    background-repeat:no-repeat;
+    background-image: url('../images/Arena Press Kit/Background.jpg');
+    background-size:100%;
+}
+
+/*@media (min-width: 1200px) {
+    .container {
+        width: 800px;
+    }
+}*/
 
 h {
 	font-size: 4em;
-	/*color: #FFFFFF;	*/
 	color: #5d5457;	
-	/*background-color: rgb(255, 235, 217);*/
 }
 
 p {
@@ -35,7 +42,6 @@ p {
 	color: #5d5457;
 	letter-spacing: 0.2em;
 	line-height: 130%;
-	/*color: rgb(204, 204, 204);*/
 }
 
 .inner-content
@@ -46,7 +52,6 @@ p {
 }
 
 .navbar {
-    /*height: 4em;*/
     background-color: #ffe075;
     text-align: center;
     box-shadow: 0px 5px #e66f6f;
@@ -120,7 +125,6 @@ a {
 	display: inline;
 	text-decoration: none;	
 	color: #E61961;
-	/* font-size: 1.8em; */
 }
 
 .unselectable {
@@ -152,15 +156,7 @@ a {
 	padding-left: 10%;
 	padding-right: 10%;
 	width: auto;
-
-
-/*	position:absolute;
-    height:90%;  = 100% - 2*5% padding 
-    width:90%; /* = 100% - 2*5% padding */*/
-    /*padding: 5%;*/
 }
-
-/*  For responsive images */
 
 .footer {
     background-color: #ffe075;
@@ -204,19 +200,6 @@ a {
 
 .img2 {
     background-image: url('../images/deli.jpg')
-}
-
-.special-offer {
-	margin-top:  0.4em;
-	font-size: 1.5em;
-	color: #f45342;
-}
-
-.alt-price {
-	font-size: 1.4em;
-	color: #5d5457;		
-	letter-spacing: 0.2em;
-	line-height: 130%;
 }
 
 .description {
