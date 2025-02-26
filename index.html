@@ -22,20 +22,9 @@
 <body>
     <div class="container-fluid" style="max-width:1000px">
         <div class="content animated fadeIn">
-            <!--nav bar-->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="navbar">
-                        <ul>
-                            <li><a href="index.html" class="hvr-shrink">ABOUT</a></li>
-                            <li><a href="arena.html" class="hvr-shrink">GAMES</a></li>
-                            <li><a href="index.html" class="hvr-shrink">PROGRAMMING</a></li>
-                            <li><a href="index.html" class="hvr-shrink">PORTFOLIO</a></li>
-                            <li><a href="skybird.html" class="hvr-shrink">MUSIC</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            <!--navbar-->
+            <div id="navbar-placeholder"></div>
+
             <!--content-->
             <div class="row">
                 <div class="col-md-12">
@@ -53,7 +42,8 @@
                     </div>
                 </div>
             </div>
-            <!--trailer-->
+
+            <!--picture-->
             <div class="row">
                 <div class="col-md-12">
                     <div class="text-box unselectable" style="margin-left:0em; margin-right:0em; margin-bottom:1em; height: 400px; overflow: hidden; position: relative;">
@@ -64,24 +54,9 @@
                     </div>
                 </div>
             </div>
+
             <!--footer-->
-            <div class="footer">
-                <h class="unselectable" style="font-size: 2.5em; color:#e08e64"> all material copyright clay peterson </h>
-                
-                <!--Links-->
-                <a href="mailto:claypetersonart@gmail.com">
-                    <img src="images/gmail.png" alt="Contact via Gmail" style="height: 30px; width: auto;">
-                </a>
-                <a href="https://claypeterson.itch.io/">
-                    <img src="images/itch.svg" alt="Itch.io" style="height: 30px; width: auto;">
-                </a>
-                <a href="https://forums.tigsource.com/index.php?topic=73945.0">
-                    <img src="images/tig.png" alt="Contact via Gmail" style="height: 30px; width: auto;">
-                </a>
-                <a href="https://www.youtube.com/@xskybirdx">
-                    <img src="images/youtube.png" alt="Contact via Gmail" style="height: 30px; width: auto;">
-                </a>
-            </div>
+            <div id="footer-placeholder"></div>
         </div>
     </div>
     <!--get jquery-->
@@ -95,6 +70,7 @@
         gtag('js', new Date());
         gtag('config', 'UA-117477206-1');
     </script>
-</body>
 
+    <script src="shared.js"></script>
+</body>
 </html>
