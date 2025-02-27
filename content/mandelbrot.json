@@ -1,0 +1,21 @@
+{
+    "pageTitle": "Mandelbrots - Clay Peterson",
+    "title": "Mandelbrots",
+    "description": "Explore visualizations of the Mandelbrot set fractal",
+    "keywords": "Mandelbrot, fractal, visualization, Python, Unity, shader",
+    "images": [
+        {
+            "src": "images/mandelbrot-background.png",
+            "alt": "Mandelbrot Set Visualization"
+        },
+        {
+            "src": "images/mandelbrot.png",
+            "alt": "Detailed Mandelbrot Pattern"
+        },
+        {
+            "src": "images/mandelbrot-background.png",
+            "alt": "Zoomed Mandelbrot Visualization"
+        }
+    ],
+    "description": "Ever since I picked up a copy of <a href=\"https://en.wikipedia.org/wiki/The_Road_to_Reality\"><b>Roger Penrose's \"The Road to Reality\"</b></a> I have had a special interest in the <a href=\"https://en.wikipedia.org/wiki/Mandelbrot_set\">mandelbrot fractal</a>.<br><br><b>So far I have made two mandelbrot viewers: </b><br>- One in written in <a href=\"https://www.python.org/\">python</a> and can generate high resolution images, given specific coordinates. <a href=\"https://github.com/claytonpeterson/mandelbrot\"> <img src=\"images/icons/github.png\" alt=\"get repository\" style=\"height: 25px; width: auto;\"></a><br><br>- The other implementation is a <a href=\"https://www.unity.com/\">unity shader</a> that can be explored in realtime. The limitation of the shader is that it can not be explored as deeply <i>(32 bit floating point numbers)</i> as the python program. <a href=\"https://claypeterson.itch.io/a-little-place-called-heaven\"> <img src=\"images/itch.svg\" alt=\"get repository\" style=\"height: 25px; width: auto;\"></a>"
+}
