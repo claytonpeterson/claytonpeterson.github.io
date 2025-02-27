@@ -2,32 +2,30 @@
 <html lang="en">
 
 <head>
-    <!--title-->
     <title>clay peterson</title>
-    <!--meta-->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="hub of clay content">
     <meta name="keywords" content="Indie Game Developer, Artist, Musician">
-    <!--bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!--custom styles-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/hover-min.css" media="all">
+    <link rel="stylesheet" href="css/hover-min.css">
     
     <style>
-        /* Add these styles to your CSS file or keep them here */
         .project-box {
             height: 100%;
             display: flex;
             flex-direction: column;
+            transition: transform 0.2s ease-in-out;
+        }
+        
+        .project-box:hover {
+            transform: scale(1.02);
         }
         
         .project-image-container {
-            height: 250px; /* Fixed height for all image containers */
+            height: 250px;
             overflow: hidden;
             margin-bottom: 10px;
         }
@@ -35,11 +33,16 @@
         .project-image {
             width: 100%;
             height: 100%;
-            object-fit: cover; /* This maintains aspect ratio while filling the container */
+            object-fit: cover;
         }
         
         .project-description {
             padding: 0 10px 10px 10px;
+        }
+
+        .project-box:hover .project-image-container b {
+            color: #84abce;
+            transition: color 0.2s ease-in-out;
         }
     </style>
 </head>
@@ -47,66 +50,47 @@
 <body>
     <div class="container-fluid" style="max-width:1000px">
         <div class="content animated fadeIn">
-            <!--navbar-->
             <div id="navbar-placeholder"></div>
-
-            <!--content-->
             <div class="row">
                 <div class="col-md-12">
                     <div class="text-box animated flipInX unselectable">
-                        <div
-                            style="text-align: left; padding-right: 2em; padding-left: 1em; padding-top: .5em; padding-bottom: .5em; margin-bottom: 1em">
-                            <p style="margin-top: 0em; font-size:28px; text-align:center">
-                                <b>
-                                    games
-                                </b>
-                            </p>
+                        <div style="text-align: center; padding: 0.5em 1em; margin-bottom: 1em">
+                            <p style="margin-top: 0; font-size:28px;"><b>games</b></p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="row">
-               
-                <!--Back to Save the Universe-->
                 <div class='col-md-6'>
                     <div class="text-box project-box">
-                        <a href="https://claypeterson.itch.io/lil-guys" class="project-link" style="text-decoration: none; color: inherit;">
+                        <a href="back-to-save-the-universe.html" class="project-link" style="text-decoration: none; color: inherit;">
                             <div class="project-image-container">
                                 <b style="font-size: 2em;">Back to Save the Universe (in progress)</b>
                                 <img src="images/btstu-flight.png" alt="Terrain generator" class="project-image">
                             </div>
-                            <iframe  style="border-radius: 10px; padding-left:5px; padding-right:5px;" frameborder="0" src="https://itch.io/embed/1822389?dark=true" width="100%" height="190"><a href="https://claypeterson.itch.io/lil-guys">back to save the universe by clay peterson</a></iframe>                       
-                         </a>
+                            <iframe frameborder="0" src="https://itch.io/embed/1822389?dark=true" width="100%" height="190" style="border-radius: 10px; padding:5px;"></iframe>
+                        </a>
                     </div>
                 </div>
 
-                 <!--ARENA -->
-                 <div class='col-md-6'>
+                <div class='col-md-6'>
                     <div class="text-box project-box">
                         <a href="arena.html" class="project-link" style="text-decoration: none; color: inherit;">
                             <div class="project-image-container">
                                 <b style="font-size: 2em;">Arena - 2020 (available now)</b>
                                 <img src="images/Arena Press Kit/Screenshots/screenshot2.jpg" alt="Mandelbrot fractal" class="project-image">
                             </div>
-                            <iframe
-                                src="https://store.steampowered.com/widget/1291530/?t=Fight%20for%20your%20freedom%20to%20exist%20as%20a%20magical%20freak!%0A"
-                                frameborder="0" width="100%" height="190" style="border-radius: 10px; padding-left:5px; padding-right:5px;">
-                            </iframe>
+                            <iframe src="https://store.steampowered.com/widget/1291530/?t=Fight%20for%20your%20freedom%20to%20exist%20as%20a%20magical%20freak!" frameborder="0" width="100%" height="190" style="border-radius: 10px; padding:5px;"></iframe>
                         </a>
                     </div>
                 </div>
-
             </div>
 
-            <!--footer-->
             <div id="footer-placeholder"></div>
         </div>
     </div>
-    <!--get jquery-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-    <!--google analytics-->
-    <!--global site tag (gtag.js) - Google Analytics-->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117477206-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -114,7 +98,6 @@
         gtag('js', new Date());
         gtag('config', 'UA-117477206-1');
     </script>
-
     <script src="shared.js"></script>
 </body>
 </html>
