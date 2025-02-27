@@ -22,18 +22,9 @@
 <body>
     <div class="container-fluid" style="max-width:1000px">
         <div class="content animated fadeIn">
-            <!--nav bar-->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="navbar">
-                        <ul>
-                            <li><a href="index.html" class="hvr-shrink">ABOUT</a></li>
-                            <li><a href="arena.html" class="hvr-shrink">ARENA</a></li>
-                            <li><a href="skybird.html" class="hvr-shrink">SKYBIRD</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            <!--navbar-->
+            <div id="navbar-placeholder"></div>
+
             <!--content-->
             <div class="row">
                 <div class="col-md-12">
@@ -44,46 +35,28 @@
                                 <b>
                                     my name is clay peterson, i live in new york city and i:
                                     <a href="skybird.html">make music</a> and
-                                    <a href="arena.html">video games</a>.<br>
+                                    <a href="games.html">video games</a>.<br>
                                 </b>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--trailer-->
+
+            <!--picture-->
             <div class="row">
                 <div class="col-md-12">
-                    <div class="text-box unselectable" style="margin-left:0em; margin-right:0em; margin-bottom:1em">
-                        <iframe width="100%" height="200"
-                            style="padding-top:.5em; padding-left:.5em; padding-right:.5em; border-radius:20px;"
-                            src="https://www.youtube.com/embed/REUaCXM4mUk" frameborder="0"
-                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                        <p
-                            style="text-align: center; padding: 0em 0em 0.1em 0em; margin: 0em 1em 0em 1em; font-size: 2em;">
-                            My latest project is:
-                            <!-- Press kit -->
-                            <a href="arena.html"><b style="color:#84abce">ARENA! (Press Kit)</b></a>
-                        </p>
+                    <div class="text-box unselectable" style="margin-left:0em; margin-right:0em; margin-bottom:1em; height: 400px; overflow: hidden; position: relative;">
+                        <img src="images/background.png" alt="Background image" style="width: 100%; object-fit: cover; display: block;">
+                        <div style="position: absolute; top: 20px; left: 20px; background-color: rgba(0,0,0,0.5); padding: 10px; border-radius: 5px;">
+                            <h2 style="color: white; margin: 0; font-size: 24px; font-weight: bold;">back to save the universe</h2>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <!-- Contact -->
-                <div class="col-sm-12">
-                    <div class="text-box">
-                        <p style="text-align: center; font-size: 2em; margin-top: 0em;">
-                            <h style="font-size: 1em">
-                                <a href="mailto: claypetersonart@gmail.com">Contact</a>
-                            </h>
-                        </p>
-                    </div>
-                </div>
-            </div>
+
             <!--footer-->
-            <div class="footer unselectable">
-                <h style="font-size: 2.5em; color:#e08e64"> all material copyright clay peterson </h>
-            </div>
+            <div id="footer-placeholder"></div>
         </div>
     </div>
     <!--get jquery-->
@@ -97,6 +70,7 @@
         gtag('js', new Date());
         gtag('config', 'UA-117477206-1');
     </script>
-</body>
 
+    <script src="shared.js"></script>
+</body>
 </html>
