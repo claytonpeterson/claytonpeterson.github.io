@@ -3,7 +3,7 @@
 
 <head>
     <!--title-->
-    <title>arena presskit</title>
+    <title>terrain generator</title>
     <!--meta-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,17 +29,48 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="text-box" style="margin-bottom: 1em">
-                        <h style="font-size:3em; color:#e08e64">Mandelbrots</h>
+                        <h style="font-size:3em; color:#e08e64">Terrain Generator</h>
                     </div>
                 </div>
             </div>
 
-            <!-- Banner Image -->
+
+            <!-- Screenshots -->
             <div class="row">
                 <div class="col-sm-12">
                     <div class="text-box" style="margin-bottom: 1em">
-                        <img src="images/mandelbrot.png" draggable="false"
-                            style="width:100%; border-radius:10px; font-weight: 700;">
+                        <!-- Carousel container -->
+                        <div class="carousel-container" style="position: relative; margin: 0 auto; overflow: hidden;">
+                            <div class="carousel-slide" style="display: none; width: 100%;">
+                                <img src="images/gaia/GaiaScreenshot1.png" alt="Mandelbrot Screenshot 2" style="width: 100%; height: auto; border-radius: 8px;">
+                            </div>
+                            <div class="carousel-slide" style="display: none; width: 100%;">
+                                <img src="images/gaia/GaiaScreenshot2.png" alt="Mandelbrot Screenshot 2" style="width: 100%; height: auto; border-radius: 8px;">
+                            </div>
+                            <div class="carousel-slide" style="display: none; width: 100%;">
+                                <img src="images/gaia/GaiaScreenshot4.png" alt="Mandelbrot Screenshot 3" style="width: 100%; height: auto; border-radius: 8px;">
+                            </div>
+                            <div class="carousel-slide" style="display: none; width: 100%;">
+                                <img src="images/gaia/GaiaScreenshot5.png" alt="Mandelbrot Screenshot 3" style="width: 100%; height: auto; border-radius: 8px;">
+                            </div>
+                            <div class="carousel-slide" style="display: none; width: 100%;">
+                                <img src="images/gaia/GaiaScreenshot6.png" alt="Mandelbrot Screenshot 3" style="width: 100%; height: auto; border-radius: 8px;">
+                            </div>
+                            <div class="carousel-slide" style="display: none; width: 100%;">
+                                <img src="images/gaia/GaiaScreenshot7.png" alt="Mandelbrot Screenshot 3" style="width: 100%; height: auto; border-radius: 8px;">
+                            </div><div class="carousel-slide" style="display: none; width: 100%;">
+                                <img src="images/gaia/GaiaScreenshot8.png" alt="Mandelbrot Screenshot 3" style="width: 100%; height: auto; border-radius: 8px;">
+                            </div>
+
+                            <button class="carousel-btn" id="prevBtn" style="position: absolute; top: 50%; transform: translateY(-50%); left: 10px; background-color: rgba(0, 0, 0, 0.5); color: white; border: none; border-radius: 50%; width: 40px; height: 40px; font-size: 18px; cursor: pointer;">&#10094;</button>
+                            <button class="carousel-btn" id="nextBtn" style="position: absolute; top: 50%; transform: translateY(-50%); right: 10px; background-color: rgba(0, 0, 0, 0.5); color: white; border: none; border-radius: 50%; width: 40px; height: 40px; font-size: 18px; cursor: pointer;">&#10095;</button>
+                            
+                            <div class="carousel-indicators" style="text-align: center; margin-top: 10px;">
+                                <span class="indicator active" data-index="0" style="display: inline-block; width: 10px; height: 10px; background-color: #e08e64; border-radius: 50%; margin: 0 5px; cursor: pointer;"></span>
+                                <span class="indicator" data-index="1" style="display: inline-block; width: 10px; height: 10px; background-color: #bbb; border-radius: 50%; margin: 0 5px; cursor: pointer;"></span>
+                                <span class="indicator" data-index="2" style="display: inline-block; width: 10px; height: 10px; background-color: #bbb; border-radius: 50%; margin: 0 5px; cursor: pointer;"></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -53,63 +84,11 @@
                     <div class="text-box" style="margin-bottom: 1em">
                         <p
                             style="letter-spacing:0.1em; font-size:1.8em; margin: 0em 1em 0em 1em; text-align:left; padding-top: .5em;">
-                            Ever since I picked up a copy of <a
-                                href="https://en.wikipedia.org/wiki/The_Road_to_Reality"><b>Roger Penrose's "The Road to
-                                    Reality"</b></a> I have had a special interest in the <a
-                                href="https://en.wikipedia.org/wiki/Mandelbrot_set">mandelbrot fractal</a>.
+                            Minecraft had just come out when I first started learning to program, so procedural generation has always been an interesting topic to me.  
                             <br><br>
-                            <b>So far I have made two mandelbrot viewers: </b>
-                            <br>
-                            - One in written in <a href="https://www.python.org/">python</a> and can generate high
-                            resolution images, given specific coordinates. 
-                            <a href="https://github.com/claytonpeterson/mandelbrot"> <img src="images/icons/github.png" alt="get repository" style="height: 25px; width: auto;"></a>
-                            <br><br>
-                            - The other implementation is a <a href="https://www.unity.com/">unity shader</a> that can
-                            be explored in realtime. The limitation of the shader is that it can not be explored as
-                            deeply <i>(32 bit floating point numbers)</i> as the python program.
+                            I've made many implementations of a terrain generator over the years, and I am happy with my latest version. It uses a rust plugin to handle the heavy lifting - allowing for very fast terrain generation on the fly.
                         </p>
                         <br>
-                        <div style="text-align: left; margin-left: 1em; margin-right: 1em;">
-                            <iframe frameborder="0" src="https://itch.io/embed/1899824?bg_color=fff9e4" width="100%" height="167" style="max-width: 552px;"><a href="https://claypeterson.itch.io/a-little-place-called-heaven">a little place called heaven by clay peterson</a></iframe>
-                        </div>
-                        <br>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Screenshots -->
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="text-box" style="margin-bottom: 1em; background-color:#ffe075;">
-                        <h style="font-size:3em; color:#e08e64">Screenshots</h>
-                    </div>
-                    
-                    <div class="text-box" style="margin-bottom: 1em">
-                        <!-- Carousel container -->
-                        <div class="carousel-container" style="position: relative; margin: 0 auto; overflow: hidden;">
-                            <div class="carousel-slide active" style="display: block; width: 100%;">
-                                <img src="images/mandelbrot-background.png" alt="Mandelbrot Screenshot 1" style="width: 100%; height: auto; border-radius: 8px;">
-                            </div>
-                            <div class="carousel-slide" style="display: none; width: 100%;">
-                                <img src="images/mandelbrot.png" alt="Mandelbrot Screenshot 2" style="width: 100%; height: auto; border-radius: 8px;">
-                            </div>
-                            <div class="carousel-slide" style="display: none; width: 100%;">
-                                <img src="images/mandelbrot-background.png" alt="Mandelbrot Screenshot 3" style="width: 100%; height: auto; border-radius: 8px;">
-                            </div>
-                            
-                            <button class="carousel-btn" id="prevBtn" style="position: absolute; top: 50%; transform: translateY(-50%); left: 10px; background-color: rgba(0, 0, 0, 0.5); color: white; border: none; border-radius: 50%; width: 40px; height: 40px; font-size: 18px; cursor: pointer;">&#10094;</button>
-                            <button class="carousel-btn" id="nextBtn" style="position: absolute; top: 50%; transform: translateY(-50%); right: 10px; background-color: rgba(0, 0, 0, 0.5); color: white; border: none; border-radius: 50%; width: 40px; height: 40px; font-size: 18px; cursor: pointer;">&#10095;</button>
-                            
-                            <div class="carousel-indicators" style="text-align: center; margin-top: 10px;">
-                                <span class="indicator active" data-index="0" style="display: inline-block; width: 10px; height: 10px; background-color: #e08e64; border-radius: 50%; margin: 0 5px; cursor: pointer;"></span>
-                                <span class="indicator" data-index="1" style="display: inline-block; width: 10px; height: 10px; background-color: #bbb; border-radius: 50%; margin: 0 5px; cursor: pointer;"></span>
-                                <span class="indicator" data-index="2" style="display: inline-block; width: 10px; height: 10px; background-color: #bbb; border-radius: 50%; margin: 0 5px; cursor: pointer;"></span>
-                            </div>
-                        </div>
-                        
-                        <p style="letter-spacing:0.1em; font-size:1.2em; margin: 1em; text-align:center;">
-                            Click to navigate through screenshots of the Mandelbrot explorer
-                        </p>
                     </div>
                 </div>
             </div>
