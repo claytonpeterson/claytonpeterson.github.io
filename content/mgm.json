@@ -1,0 +1,29 @@
+{
+    "pageTitle": "MGM Resorts - Clay Peterson",
+    "title": "MGM Resorts",
+    "description": "A VR secruity training software developed for MGM resorts by Ustwo",
+    "keywords": "MGM Resorts, VR, Ustwo, Unity",
+    "images": [
+        {
+            "src": "images/portfolio/mgm/mgm1.jpg",
+            "alt": "an image of the mgm vr security training app"
+        },
+        {
+            "src": "images/portfolio/mgm/mgm2.jpg",
+            "alt": "an image of the mgm vr security training app"
+        },
+        {
+            "src": "images/portfolio/mgm/mgm3.webp",
+            "alt": "an image of the mgm vr security training app"
+        },
+        {
+            "src": "images/portfolio/mgm/mgm4.jpg",
+            "alt": "an image of the mgm vr security training app"
+        },
+        {
+            "src": "images/portfolio/mgm/mgm5.jpg",
+            "alt": "an image of the mgm vr security training app"
+        }
+    ],
+    "description": "At Ustwo, I worked on a VR training simulation for security guards at the MGM Aria casino. My role on the project was to program the AI npcs who inhabited the casino, and to make the gameplay systems that run the training scenarios.<br><br>During the project I learned a lot about optimization. Our target headset was the meta quest 2, and our target goal was 500 active npcs."
+}
