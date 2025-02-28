@@ -1,0 +1,33 @@
+{
+    "pageTitle": "Hometopia - Clay Peterson",
+    "title": "Hometopia",
+    "description": "A cozy home building game",
+    "keywords": "Homebuilding, PC Game, Steam, Hometopia, Cozy",
+    "images": [
+        {
+            "src": "images/portfolio/hometopia/hometopia1.jpg",
+            "alt": "an image of the mgm vr security training app"
+        },
+        {
+            "src": "images/portfolio/hometopia/hometopia2.jpg",
+            "alt": "an image of the mgm vr security training app"
+        },
+        {
+            "src": "images/portfolio/hometopia/hometopia3.jpg",
+            "alt": "an image of the mgm vr security training app"
+        },
+        {
+            "src": "images/portfolio/hometopia/hometopia4.jpg",
+            "alt": "an image of the mgm vr security training app"
+        },
+        {
+            "src": "images/portfolio/hometopia/hometopia5.jpg",
+            "alt": "an image of the mgm vr security training app"
+        },
+        {
+            "src": "images/portfolio/hometopia/hometopia6.jpg",
+            "alt": "an image of the mgm vr security training app"
+        }
+    ],
+    "description": "At EveryRealm I worked on the early access game Hometopia. This project was a challenge because we had inherited a massive codebase that needed to be rewritten, while also producing regular feature updates. <br><br>My proudest contributions were: redesigning the store / item selection system, my work on the UI, and my rewrite of the locomotion system."
+}
