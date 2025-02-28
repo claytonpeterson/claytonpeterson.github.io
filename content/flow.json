@@ -1,0 +1,26 @@
+{
+    "pageTitle": "Flow Immersive - Clay Peterson",
+    "title": "Flow Immersive",
+    "description": "Flow Immersive allows users to visualize data in VR",
+    "keywords": "VR, visualization, meta avatars",
+    "images": [
+        {
+            "src": "images/portfolio/flow/flow1.jpg",
+            "alt": "flow"
+        },
+        {
+            "src": "images/portfolio/flow/flow2.jpg",
+            "alt": "flow"
+        },{
+            "src": "images/portfolio/flow/flow3.jpg",
+            "alt": "flow"
+        },{
+            "src": "images/portfolio/flow/flow4.webp",
+            "alt": "flow"
+        },{
+            "src": "images/portfolio/flow/flow5.jpg",
+            "alt": "flow"
+        }
+    ],
+    "description": "While working at Shaking Earth Digital, we helped Flow Immersive convert their web app into a meta quest app. <br><br>My primary role on the project was the VR user experience - but I also had the opprotunity to incorporate the meta avatar framework, and use it to create a system for recording and playing back avatar performances."
+}

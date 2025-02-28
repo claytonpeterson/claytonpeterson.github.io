@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>clay peterson</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="hub of clay content">
+    <meta name="keywords" content="Indie Game Developer, Artist, Musician">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+
+    <style>
+        .project-box {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .project-box:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 15px 10px #f8b3b3;
+        }
+
+        .project-image-container {
+            height: 250px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+
+        .project-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .project-description {
+            padding: 0 10px 10px 10px;
+        }
+
+        .project-box:hover .project-image-container b {
+            color: #84abce;
+            transition: color 0.2s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid" style="max-width:1000px">
+        <div class="content animated fadeIn">
+            <div id="navbar-placeholder"></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-box animated flipInX unselectable">
+                        <div style="text-align: center; padding: 0.5em 1em; margin-bottom: 1em">
+                            <p style="margin-top: 0; font-size:28px;"><b>portfolio</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class=' col-sm-6'>
+                    <div class="text-box project-box">
+                        <a href="portfolio-template.html?page=hometopia" class="project-link" style="text-decoration: none; color: inherit;">
+                            <div class="project-image-container">
+                                <b style="font-size: 2em;">Hometopia</b>
+                                <img src="images/portfolio/hometopia/hometopia1.jpg" alt="terrain generator" class="project-image">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="text-box project-box">
+                        <a href="portfolio-template.html?page=qualcomm" class="project-link" style="text-decoration: none; color: inherit;">
+                            <div class="project-image-container">
+                                <b style="font-size: 2em;">Qualcomm</b>
+                                <img src="images/portfolio/qualcomm/qualcomm2.png" alt="qualcomm" class="project-image">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class=' col-sm-6'>
+                    <div class="text-box project-box">
+                        <a href="portfolio-template.html?page=mgm" class="project-link" style="text-decoration: none; color: inherit;">
+                            <div class="project-image-container">
+                                <b style="font-size: 2em;">MGM Resorts</b>
+                                <img src="images/portfolio/mgm/mgm1.jpg" alt="terrain generator" class="project-image">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="text-box project-box">
+                        <a href="portfolio-template.html?page=flow" class="project-link" style="text-decoration: none; color: inherit;">
+                            <div class="project-image-container">
+                                <b style="font-size: 2em;">Flow Immersive</b>
+                                <img src="images/portfolio/flow/flow2.jpg" alt="flow immersive" class="project-image">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-placeholder"></div>
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117477206-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-117477206-1');
+    </script>
+    <script src="shared.js"></script>
+</body>
+
+</html>

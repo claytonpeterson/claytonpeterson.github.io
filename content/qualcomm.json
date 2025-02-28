@@ -1,0 +1,21 @@
+{
+    "pageTitle": "Qualcomm - Clay Peterson",
+    "title": "Qualcomm Snapdragon AR",
+    "description": "",
+    "keywords": "Snapdragon, AR, Qualcomm",
+    "images": [
+        {
+            "src": "images/portfolio/qualcomm/qualcomm1.webp",
+            "alt": "an image of the mgm vr security training app"
+        },
+        {
+            "src": "images/portfolio/qualcomm/qualcomm2.png",
+            "alt": "an image of the mgm vr security training app"
+        },
+        {
+            "src": "images/portfolio/qualcomm/qualcomm3.png",
+            "alt": "an image of the mgm vr security training app"
+        }
+    ],
+    "description": "At Ustwo, I worked on a project for Qualcomm - protoyping and creating a demo product for their snapdragon AR platform."
+}

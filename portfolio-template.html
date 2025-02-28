@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!--title-->
+    <title id="page-title">Loading...</title>
+    <!--meta-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta id="page-description" name="description" content="">
+    <meta id="page-keywords" name="keywords" content="">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--custom styles-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/hover-min.css" media="all">
+    <!--template script-->
+    <script src="js/template.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid" style="max-width:1000px">
+        <div class="content animated fadeIn">
+            <!--navbar-->
+            <div id="navbar-placeholder"></div>
+
+            <!-- Title -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="text-box" style="margin-bottom: 1em">
+                        <h id="content-title" style="font-size:3em; color:#e08e64">Loading...</h>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="text-box" style="margin-bottom: 1em">
+                        <!-- Carousel container -->
+                        <div id="carousel-container" class="carousel-container" style="position: relative; margin: 0 auto; overflow: hidden;">
+                            <!-- Slides will be dynamically inserted here -->
+                            
+                            <button class="carousel-btn" id="prevBtn"
+                                style="position: absolute; top: 50%; transform: translateY(-50%); left: 10px; background-color: rgba(0, 0, 0, 0.5); color: white; border: none; border-radius: 50%; width: 40px; height: 40px; font-size: 18px; cursor: pointer;">&#10094;</button>
+                            <button class="carousel-btn" id="nextBtn"
+                                style="position: absolute; top: 50%; transform: translateY(-50%); right: 10px; background-color: rgba(0, 0, 0, 0.5); color: white; border: none; border-radius: 50%; width: 40px; height: 40px; font-size: 18px; cursor: pointer;">&#10095;</button>
+
+                            <div id="carousel-indicators" class="carousel-indicators" style="text-align: center; margin-top: 10px;">
+                                <!-- Indicators will be dynamically inserted here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Description -->
+                <div class="col-sm-12">
+                    <div class="text-box" style="margin-bottom: 1em; background-color:#ffe075;">
+                        <h style="font-size:3em; color:#e08e64">Details</h>
+                    </div>
+                    <div class="text-box" style="margin-bottom: 1em">
+                        <div id="content-description" 
+                            style="letter-spacing:0.1em; font-size:1.8em; margin: 0em 1em 0em 1em; text-align:left; padding-top: .5em;">
+                            Loading content...
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <!--footer-->
+            <div id="footer-placeholder"></div>
+        </div>
+    </div>
+    
+    <!--get jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <!--google analytics-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117477206-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-117477206-1');
+    </script>
+    <script src="js/template.js"></script>
+    <script src="shared.js"></script>
+</body>
+</html>

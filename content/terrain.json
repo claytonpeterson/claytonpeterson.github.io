@@ -1,0 +1,37 @@
+{
+    "pageTitle": "Terrain Generator - Clay Peterson",
+    "title": "Terrain Generator",
+    "description": "Create procedural terrain in unity using perlin noise",
+    "keywords": "Terrain Generator, procedural generation, Unity, perlin noiser",
+    "images": [
+        {
+            "src": "images/gaia/GaiaScreenshot1.png",
+            "alt": "an image of procedural terrain"
+        },
+        {
+            "src": "images/gaia/GaiaScreenshot2.png",
+            "alt": "an image of procedural terrain"
+        },
+        {
+            "src": "images/gaia/GaiaScreenshot4.png",
+            "alt": "an image of procedural terrain"
+        },
+        {
+            "src": "images/gaia/GaiaScreenshot5.png",
+            "alt": "an image of procedural terrain"
+        },
+        {
+            "src": "images/gaia/GaiaScreenshot6.png",
+            "alt": "an image of procedural terrain"
+        },
+        {
+            "src": "images/gaia/GaiaScreenshot7.png",
+            "alt": "an image of procedural terrain"
+        },
+        {
+            "src": "images/gaia/GaiaScreenshot8.png",
+            "alt": "an image of procedural terrain"
+        }
+    ],
+    "description": "Minecraft had just come out when I first started learning to program, so procedural generation has always been an interesting topic to me. <br><br> I've made many implementations of a terrain generator over the years, and I am happy with my latest version. It uses a rust plugin to handle the heavy lifting - allowing for very fast terrain generation on the fly."
+}
