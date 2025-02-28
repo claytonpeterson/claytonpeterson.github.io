@@ -1,11 +1,19 @@
 {
-    "pageTitle": "MGM Resorts - Clay Peterson",
-    "title": "MGM Resorts",
-    "description": "A VR secruity training software developed for MGM resorts by Ustwo",
-    "keywords": "MGM Resorts, VR, Ustwo, Unity",
+    "pageTitle": "Qualcomm - Clay Peterson",
+    "title": "Qualcomm Snapdragon AR",
+    "description": "",
+    "keywords": "Snapdragon, AR, Qualcomm",
     "images": [
         {
-            "src": "images/portfolio/qualcomm/snapdragon.webp",
+            "src": "images/portfolio/qualcomm/qualcomm1.webp",
+            "alt": "an image of the mgm vr security training app"
+        },
+        {
+            "src": "images/portfolio/qualcomm/qualcomm2.png",
+            "alt": "an image of the mgm vr security training app"
+        },
+        {
+            "src": "images/portfolio/qualcomm/qualcomm3.png",
             "alt": "an image of the mgm vr security training app"
         }
     ],

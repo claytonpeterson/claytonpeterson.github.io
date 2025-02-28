@@ -5,15 +5,47 @@
     "keywords": "Mandelbrot, fractal, visualization, Python, Unity, shader",
     "images": [
         {
-            "src": "images/mandelbrot-background.png",
+            "src": "images/projects/mandelbrots/mandelbrot0.png",
             "alt": "Mandelbrot Set Visualization"
         },
         {
-            "src": "images/mandelbrot.png",
-            "alt": "Detailed Mandelbrot Pattern"
+            "src": "images/projects/mandelbrots/mandelbrot2.png",
+            "alt": "Zoomed Mandelbrot Visualization"
         },
         {
-            "src": "images/mandelbrot-background.png",
+            "src": "images/projects/mandelbrots/mandelbrot3.png",
+            "alt": "Zoomed Mandelbrot Visualization"
+        },
+        {
+            "src": "images/projects/mandelbrots/mandelbrot5.png",
+            "alt": "Zoomed Mandelbrot Visualization"
+        },
+        {
+            "src": "images/projects/mandelbrots/mandelbrot6.png",
+            "alt": "Zoomed Mandelbrot Visualization"
+        },
+        {
+            "src": "images/projects/mandelbrots/mandelbrot7.png",
+            "alt": "Zoomed Mandelbrot Visualization"
+        },
+        {
+            "src": "images/projects/mandelbrots/mandelbrot8.png",
+            "alt": "Zoomed Mandelbrot Visualization"
+        },
+        {
+            "src": "images/projects/mandelbrots/mandelbrot9.png",
+            "alt": "Zoomed Mandelbrot Visualization"
+        },
+        {
+            "src": "images/projects/mandelbrots/mandelbrot10.png",
+            "alt": "Zoomed Mandelbrot Visualization"
+        },
+        {
+            "src": "images/projects/mandelbrots/mandelbrot11.png",
+            "alt": "Zoomed Mandelbrot Visualization"
+        },
+        {
+            "src": "images/projects/mandelbrots/mandelbrot13.png",
             "alt": "Zoomed Mandelbrot Visualization"
         }
     ],
